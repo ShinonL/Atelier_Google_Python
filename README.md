@@ -1,4 +1,4 @@
-# AtelierUL Digital Google: Python
+# Atelierul Digital Google: Python
 
 ### Meeting 1 : 28.03.2022
 - introduction
