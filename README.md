@@ -1,6 +1,6 @@
 # AtelierUL Digital Google: Python
 
-## Meeting 1 : 28.03.2022
+### Meeting 1 : 28.03.2022
 - introduction
 - install Python
 - install PyCharm
