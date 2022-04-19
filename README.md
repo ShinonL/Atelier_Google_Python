@@ -44,8 +44,14 @@
 
 - finish homework 1: Covid Informations
 - file manipulation
-- ``open(<file_name>, <open_mode>)`
+- `open(<file_name>, <open_mode>)`
 - `'r'` -> open for reading (default)
 - `'w'` -> open for writing (from start)
 - `'a'` -> append to the file
 - `'r+'` -> open for reading and writing
+- pandas exercises
+- a data frame is a Series of Series
+- data frame -> renaming indexes forces us to use the new names
+- series -> renaming indexes DOESN'T force us to use the new names
+- JSON manipulation with pandas
+- dat clean-up
