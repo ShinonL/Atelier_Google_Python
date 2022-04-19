@@ -7,7 +7,7 @@
 - install PyCharm
 - install Git & create Git Repository
 
-### Meeting 2 : 04.04.2022
+### Meeting 2 : 05.04.2022
 
 - print message to screen
 - open python console
@@ -26,3 +26,26 @@
 - functions / methods in python
 - lists
 - cnp validator
+
+### Meeting 4 : 12.04.2022
+
+- exceptions
+- namespace
+- create .csv files
+- curs BNR
+
+### Meeting 5 : 14.04.2022
+
+- web scrapping
+- beatiful soup
+- selenium
+
+### Meeting 7 : 07.04.2022
+
+- finish homework 1: Covid Informations
+- file manipulation
+- ``open(<file_name>, <open_mode>)`
+- `'r'` -> open for reading (default)
+- `'w'` -> open for writing (from start)
+- `'a'` -> append to the file
+- `'r+'` -> open for reading and writing
