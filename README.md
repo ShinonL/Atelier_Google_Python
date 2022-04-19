@@ -55,3 +55,4 @@
 - series -> renaming indexes DOESN'T force us to use the new names
 - JSON manipulation with pandas
 - dat clean-up
+- HOMEWORK 2: Data cleanup, THEN the exercises
