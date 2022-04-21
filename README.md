@@ -66,3 +66,4 @@
 - create a new application: `python manage.py startapp <app_name>`
 - make and add migrations
 - create a super user and access it via `/admin`
+- create a template for the login page
