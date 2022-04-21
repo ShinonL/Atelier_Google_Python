@@ -40,7 +40,7 @@
 - beatiful soup
 - selenium
 
-### Meeting 7 : 07.04.2022
+### Meeting 6 : 19.04.2022
 
 - finish homework 1: Covid Informations
 - file manipulation
@@ -56,3 +56,13 @@
 - JSON manipulation with pandas
 - dat clean-up
 - HOMEWORK 2: Data cleanup, THEN the exercises
+
+### Meeting 7 : 21.04.2022
+
+- create a new virtual environment
+- install Django
+- create our first project in Django: `django-admin startproject <project_name>`
+- a project is made of more modules / applications
+- create a new application: `python manage.py startapp <app_name>`
+- make and add migrations
+- create a super user and access it via `/admin`
