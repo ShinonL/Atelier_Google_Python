@@ -67,3 +67,12 @@
 - make and add migrations
 - create a super user and access it via `/admin`
 - create a template for the login page
+
+### Meeting 8 : 26.04.2022
+
+- create a DB table
+- make CRUD operations based on the table
+- `if` and `for` in the `.html`
+- auth redirect
+- security for each view
+- all modifications are done in the project from meeting 7 (implemented `app_1`)
