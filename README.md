@@ -76,3 +76,7 @@
 - auth redirect
 - security for each view
 - all modifications are done in the project from meeting 7 (implemented `app_1`)
+
+### Meeting 9 : 28.04.2022
+
+- create `app_2`

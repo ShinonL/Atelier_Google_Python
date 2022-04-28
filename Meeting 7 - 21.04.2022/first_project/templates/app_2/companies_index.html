@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <a class="btn btn-success" href="{% url 'companies:add' %}">Add a company</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Company Type</th>
+                <th>Website</th>
+                <th>State</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in companies_list %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.company_type }}</td>
+                    <td>
+                        {{ item.website }}
+                    </td>
+                    <td>
+                        {% if item.active == 1 %}
+                            <span class="btn btn-info">Active</span>
+                        {% else %}
+                            <span class="btn btn-info">Inactive</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a class="btn btn-success" href="{% url 'companies:update' item.id %}">Update</a>
+                        {% if item.active == 1 %}
+                        <a class="btn btn-danger" href="{% url 'companies:delete' item.id %}">Delete</a>
+                        {% else %}
+                        <a class="btn btn-info" href="{% url 'companies:activate' item.id %}">Activate</a>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
