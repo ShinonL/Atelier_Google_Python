@@ -24,4 +24,6 @@ urlpatterns = [
     path('', LoginView.as_view(template_name='registration/login.html'), name='login'),
     path('locations/', include('app_1.urls')),
     path('companies/', include('app_2.urls')),
+    path('jobs/', include('app_3.urls')),
+    path('profile/', include('user_profile.urls')),
 ]
