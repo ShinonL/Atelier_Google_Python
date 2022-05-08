@@ -12,6 +12,7 @@ from app_2.models import Companies
 class CompaniesView(LoginRequiredMixin, ListView):
     model = Companies
     template_name = 'app_2/companies_index.html'
+    paginate_by = 5
 
 
 class CreateCompanyView(LoginRequiredMixin, CreateView):

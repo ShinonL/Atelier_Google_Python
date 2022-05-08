@@ -12,6 +12,7 @@ from app_3.models import Jobs
 class JobsView(LoginRequiredMixin, ListView):
     model = Jobs
     template_name = 'app_3/jobs_index.html'
+    paginate_by = 5
 
 
 class CreateJobView(LoginRequiredMixin, CreateView):

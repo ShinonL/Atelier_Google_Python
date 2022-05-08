@@ -12,6 +12,7 @@ from app_1.models import Locations
 class LocationsView(LoginRequiredMixin, ListView):
     model = Locations
     template_name = 'app_1/locations_index.html'
+    paginate_by = 5
 
 
 class CreateLocationView(LoginRequiredMixin, CreateView):
